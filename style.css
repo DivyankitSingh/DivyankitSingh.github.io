@@ -1217,24 +1217,29 @@ footer ul li a:hover{
 
 /* responsive */
 @media only screen and (max-width:500px){
-    #search-section{
-        margin-top: 0px;
+    #details .new-main-content .modal-new-content img {
+        float: left;
+        height: 20%;
+        width: 50%;
+        /* border-radius: 30px 0px 30px 0px; */
+        /* margin-left: 2rem; */
+        
     }
-    #search-section .search-area{
-        border-radius:0;
-        padding: 30px;
+
+    #details .new-main-content .modal-new-content .new-float {
+        /* float: right; */
+        /* margin-right: 15%; */
+       margin-bottom: 0rem;
+       height: 50%;
+       width: 100%;
+     }
+
+     .contact-input {
+        font-weight: 500;
+        font-size: 15px;
+
     }
-    #search-section .search-area input{
-        margin-bottom: 10px; 
-    }
-    #search-section .search-area button.btn-theme{
-        margin-top: 20px;
-        width: 100%;
-    }
-    /* service section */
-    #service-section .d-flex{
-        flex-direction: column;
-    }
+
     #img-slide {
         width: 95%;
         height: 45%;
@@ -1403,6 +1408,9 @@ footer ul li a:hover{
     #test-slider .swiper-container .swiper-slide .test-list:hover {
         font-size: 18px;
     
+    }
+    #property-section {
+        margin-top: 13rem;
     }
    
 }
